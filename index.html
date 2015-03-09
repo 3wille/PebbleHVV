@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Pebblehvv by 3wille</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Pebblehvv</h1>
+        <p>This is an app implementing the HVV api on Pebble Smartwatch using Pebble.js</p>
+
+        <p class="view"><a href="https://github.com/3wille/PebbleHVV">View the Project on GitHub <small>3wille/PebbleHVV</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/3wille/PebbleHVV/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/3wille/PebbleHVV/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/3wille/PebbleHVV">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="pebblehvv" class="anchor" href="#pebblehvv" aria-hidden="true"><span class="octicon octicon-link"></span></a>PebbleHVV</h1>
+
+<p>This is an app implementing the HVV API on Pebble Smartwatch using Pebble.js</p>
+
+<p>Until I get to obfuscate some code, you'll need your own password to actually run this. You can get it by sending mail to HVV. After that, save below code as password.js</p>
+
+<div class="highlight highlight-javascript"><pre><span class="pl-s">var</span> password <span class="pl-k">=</span> (<span class="pl-st">function</span>(){ 
+  <span class="pl-s">var</span> <span class="pl-en">password</span> <span class="pl-k">=</span> <span class="pl-st">function</span>(){
+    <span class="pl-k">return</span> <span class="pl-s1"><span class="pl-pds">"</span><span class="pl-pds">"</span></span>; <span class="pl-c">// fill in password here</span>
+  };
+  <span class="pl-k">if</span> (<span class="pl-k">typeof</span> <span class="pl-sv">module</span> <span class="pl-k">!==</span> <span class="pl-s1"><span class="pl-pds">'</span>undefined<span class="pl-pds">'</span></span>) {
+    <span class="pl-sv">module</span>.exports <span class="pl-k">=</span> password;
+  } <span class="pl-k">else</span> {
+    <span class="pl-s3">window</span>.ajax <span class="pl-k">=</span> password;
+  }
+
+  <span class="pl-k">return</span> password;
+})();</pre></div>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/3wille">3wille</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
